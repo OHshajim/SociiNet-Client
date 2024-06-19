@@ -1,0 +1,62 @@
+[
+    {
+        "user_photo": "https://i.ibb.co/ZzHghcs/team-img-2-3.jpg",
+        "user_name": "John Doe",
+        "date": "2024-06-18",
+        "caption": "Enjoying a sunny day at the beach!",
+        "post_photo": "https://i.ibb.co/HDWPNrY/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-p.jpg",
+        "like_count": 120,
+        "comments": [
+            {
+                "user_photo": "https://i.ibb.co/zHzp6ZR/team-img-2-2.jpg",
+                "user_name": "Jane Smith",
+                "comment": "Looks amazing! Wish I was there."
+            },
+            {
+                "user_photo": "https://i.ibb.co/1R1Rfxf/team-img-2-1.jpg",
+                "user_name": "Tom Brown",
+                "comment": "Great photo! Have fun."
+            }
+        ]
+    },
+    {
+        "user_photo": "https://i.ibb.co/1R1Rfxf/team-img-2-1.jpg",
+        "user_name": "Alice Johnson",
+        "date": "2024-06-17",
+        "caption": "Had a wonderful time hiking in the mountains.",
+        "post_photo": "https://i.ibb.co/q7220QK/bali-pagoda-indonesia.jpg",
+        "like_count": 200,
+        "comments": [
+            {
+                "user_photo": "https://i.ibb.co/zHzp6ZR/team-img-2-2.jpg",
+                "user_name": "Bob White",
+                "comment": "Incredible view! Where is this?"
+            },
+            {
+                "user_photo": "https://i.ibb.co/ZzHghcs/team-img-2-3.jpg",
+                "user_name": "Mary Green",
+                "comment": "I'm jealous! Looks like a great adventure."
+            }
+        ]
+    },
+    {
+        "user_photo": "https://i.ibb.co/zHzp6ZR/team-img-2-2.jpg",
+        "user_name": "Charlie Davis",
+        "date": "2024-06-16",
+        "caption": "Morning coffee with a perfect sunrise.",
+        "post_photo": "https://i.ibb.co/c39C3tC/kuala-lumpur-1820944.jpg",
+        "like_count": 85,
+        "comments": [
+            {
+                "user_photo": "https://i.ibb.co/1R1Rfxf/team-img-2-1.jpg",
+                "user_name": "Eve Adams",
+                "comment": "Such a peaceful scene!"
+            },
+            {
+                "user_photo": "https://i.ibb.co/ZzHghcs/team-img-2-3.jpg",
+                "user_name": "Franklin Wright",
+                "comment": "Good morning! That looks fantastic."
+            }
+        ]
+    }
+]

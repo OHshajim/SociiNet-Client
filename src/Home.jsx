@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner";
+import Contents from "./Components/Contents";
 import Nav from "./Components/Nav";
 
 const Home = () => {
@@ -6,6 +7,8 @@ const Home = () => {
         <div>
             <Nav />
             <Banner />
+            <Contents/>
+            
         </div>
     );
 };
