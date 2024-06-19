@@ -1,7 +1,9 @@
 // import { useQuery } from "@tanstack/react-query";
 // import axios from "axios";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { FaHeart, FaRegComment, FaRegHeart } from "react-icons/fa";
+import { MdDelete } from "react-icons/md";
 
 const Contents = () => {
     // const { data: post = [] } = useQuery({
@@ -13,12 +15,14 @@ const Contents = () => {
     //     }
     // })
     const [post, setPost] = useState([])
-    fetch('data.json')
-        .then(result => result.json())
-        .then(data => {
-            console.log(data);
-            setPost(data)
-        })
+    useEffect(() => {
+        fetch('data.json')
+            .then(result => result.json())
+            .then(data => {
+                console.log(data);
+                setPost(data)
+            })
+    }, [])
     return (
         <div className="max-w-screen-2xl mx-auto my-10">
             <h3 className="text-2xl font-semibold">Contents </h3>
@@ -37,10 +41,14 @@ const Contents = () => {
                             <p>{content.caption}</p>
                         </div>
                         <img src={content.post_photo} alt="post" />
-                        <div>
-                            <button className="btn"></button>
-                            <button className="btn"></button>
-                            <button className="btn"></button>
+                        <div className="my-4 flex gap-5">
+                            <button className="btn text-2xl hover:text-red-600 btn-outline hover:border-red-600 "><FaRegHeart /> <FaHeart />
+
+                            </button>
+                            <button className="btn text-2xl hover:text-blue-600 btn-outline hover:border-blue-600 "><FaRegComment />
+                            </button>
+                            <button className="btn text-2xl hover:text-red-600 btn-outline hover:border-red-600 "><MdDelete />
+                            </button>
                         </div>
                     </div>)
             }
