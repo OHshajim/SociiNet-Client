@@ -2,10 +2,9 @@
     {
         "user_photo": "https://i.ibb.co/ZzHghcs/team-img-2-3.jpg",
         "user_name": "John Doe",
-        "date": "2024-06-18",
         "caption": "Enjoying a sunny day at the beach!",
         "post_photo": "https://i.ibb.co/HDWPNrY/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-p.jpg",
-        "like_count": 120,
+        "like": 120,
         "comments": [
             {
                 "user_photo": "https://i.ibb.co/zHzp6ZR/team-img-2-2.jpg",
@@ -22,10 +21,9 @@
     {
         "user_photo": "https://i.ibb.co/1R1Rfxf/team-img-2-1.jpg",
         "user_name": "Alice Johnson",
-        "date": "2024-06-17",
         "caption": "Had a wonderful time hiking in the mountains.",
         "post_photo": "https://i.ibb.co/q7220QK/bali-pagoda-indonesia.jpg",
-        "like_count": 200,
+        "like": 200,
         "comments": [
             {
                 "user_photo": "https://i.ibb.co/zHzp6ZR/team-img-2-2.jpg",
@@ -42,10 +40,9 @@
     {
         "user_photo": "https://i.ibb.co/zHzp6ZR/team-img-2-2.jpg",
         "user_name": "Charlie Davis",
-        "date": "2024-06-16",
         "caption": "Morning coffee with a perfect sunrise.",
         "post_photo": "https://i.ibb.co/c39C3tC/kuala-lumpur-1820944.jpg",
-        "like_count": 85,
+        "like": 85,
         "comments": [
             {
                 "user_photo": "https://i.ibb.co/1R1Rfxf/team-img-2-1.jpg",

@@ -3,12 +3,12 @@ import Contents from "./Components/Contents";
 import Nav from "./Components/Nav";
 
 const Home = () => {
+
     return (
-        <div>
+        <div className="relative">
             <Nav />
             <Banner />
-            <Contents/>
-            
+            <Contents />
         </div>
     );
 };
